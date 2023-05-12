@@ -181,3 +181,4 @@ CREATE TABLE Ticket
   FOREIGN KEY (SSN) REFERENCES Passenger(SSN),
   FOREIGN KEY (FlightNumber) REFERENCES Flight(FlightNumber)
 );
+
